@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Week 1 assignment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags
+Cameron Faison
+camfaison32@gmail.com-->
+<!--this connects javascript and html-->
+<!--this connects my html site and css-->
+<!--this code displays the title of the page-->
+<!--this displays the UAT logo-->
+<!-- this displays the header UAT space program and Countdown Timer-->
+<!--this creates the button, and gives it different options for use-->
+<!--this shows what the status of the craps game is after clicing the button-->
+<html>
+
+    <head>
+       
+        <script src="code.js"></script>
+       <link href="style.css" rel="stylesheet" type="text/css">
+         <title> 
+       Cameron Faisons UAT Space Page
+        </title>
+    </head>
+
+    <body>
+        
+       
+        <table>
+            <tr>
+                <td><img src="UATspaceLogo-2.jpg"></td>
+            </tr>
+        </table>
+        <h1> UAT space program
+            </h1>         
+        <p id="paraFunc">
+    
+        </p>
+      
+        <h2>Countdown Timer</h2>
+   
+        <div id="countdownStatus">Timer Status</div><br>
+        <br>
+        
+        <button onclick="blastoffTimerV2();">Start</button>
+       <button class="button">Stop</button><br><br>
+        <h2>Please try your hand at Craps!</h2>
+        
+        <div id="crapsStatus">Craps Status</div>
+        <button onclick="playCraps();">Play Craps</button>
+    </body>
+
+</html>
